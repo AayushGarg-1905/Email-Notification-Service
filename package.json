@@ -1,0 +1,28 @@
+{
+  "name": "email-notification-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "worker": "ts-node-dev src/workers/emailWorker.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bullmq": "^5.56.8",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/nodemailer": "^6.4.17",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
