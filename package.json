@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --respawn src/index.ts",
-    "worker": "ts-node-dev src/workers/emailWorker.ts"
+    "worker": "ts-node-dev src/workers/emailWorker.ts",
+    "consumer": "ts-node-dev src/consumer.ts"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "express-rate-limit": "^8.0.1",
+    "kafkajs": "^2.2.4",
     "nodemailer": "^7.0.5"
   },
   "devDependencies": {
