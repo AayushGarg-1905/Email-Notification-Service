@@ -4,7 +4,7 @@ A production-ready, scalable, and asynchronous email notification system built w
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **RESTful API** for submitting email requests
 - **Kafka** for high-throughput, decoupled message streaming
@@ -17,7 +17,7 @@ A production-ready, scalable, and asynchronous email notification system built w
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Client → HTTP API → Kafka Producer
@@ -32,7 +32,7 @@ Client → HTTP API → Kafka Producer
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Node.js** & **TypeScript**
 - **Express** (API)
@@ -89,14 +89,14 @@ Client → HTTP API → Kafka Producer
 
 ---
 
-## 📊 Monitoring & Management
+##  Monitoring & Management
 
 - **Bull Board UI**:  
   Visit [http://localhost:4000/admin/queues](http://localhost:4000/admin/queues) to monitor and manage BullMQ jobs in real time.
 
 ---
 
-## 🧪 Bulk Testing
+##  Bulk Testing
 
 Use the provided script to simulate bulk email requests and test system throughput:
 ```sh
@@ -105,11 +105,9 @@ bash src/bulkEmail.sh
 
 ---
 
-## ⚙️ Rate Limiting
+##  Rate Limiting
 
 The API is protected by a rate limiter (default: 10 requests per minute per IP) to prevent abuse and ensure system stability.  
 You can adjust this in [`src/utils/rateLimiter.ts`](src/utils/rateLimiter.ts).
 
-> **Tip:**  
-> This project is ideal for demonstrating your skills in backend engineering, distributed systems, and cloud-native application design.  
-> Add it to your resume and portfolio to stand
+
